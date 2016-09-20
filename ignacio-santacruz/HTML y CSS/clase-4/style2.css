@@ -1,0 +1,16 @@
+header {
+    background: red;
+}
+footer {
+    clear: both;
+    background: blue;
+}
+section {
+    background: green;
+}
+nav {
+    background: yellow;
+}
+aside {
+    background: orange;
+}

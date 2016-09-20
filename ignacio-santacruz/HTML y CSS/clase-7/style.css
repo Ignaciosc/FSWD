@@ -1,0 +1,62 @@
+body {
+    background: #ccc;
+}
+.container{
+    width: 960px;
+    /*border: 1px solid #ccc;*/
+    background: #ccc;
+}
+header {
+    width: 960px;
+    height: 100px;
+    background: #581688;
+    position: relative;
+}
+section {
+    position: relative;
+    top: 0px;
+    width: 960px;
+    height: 400px;
+    background: white;
+}
+section aside.left {
+    width: 220px;
+    height: 380px;
+    background: white;
+    padding: 10px;
+    /*position: relative;*/
+}
+section aside.left nav {
+    background: #51d9e8;
+    width: 220px;
+    height: 40px;
+    margin-bottom: 10px;
+}
+section main {
+    width: 480px;
+    height: 400px;
+    background: #fff;
+    position: absolute;
+    left: 240px;
+    top: 0px;
+}
+section aside.right {
+    width: 220px;
+    height: 380px;
+    padding: 10px;
+    background: white;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+section aside.right nav {
+    background: #51d9e8;
+    width: 220px;
+    height: 380px;
+}
+footer {
+    width: 960px;
+    height: 75px;
+    background: #0ea0da;
+    position: relative;
+}

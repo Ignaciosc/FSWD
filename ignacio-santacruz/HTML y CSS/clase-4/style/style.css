@@ -1,0 +1,55 @@
+body {
+    background: lightblue;
+}
+.container {
+    width: 500px;
+}
+strong {
+    font-weight: bold;
+}
+header {
+    background: red;
+}
+header h1 {
+    background: cyan;
+    padding: 20px;
+}
+header ul li {
+    background: lightgreen;
+    border: 1px solid red;
+    float: left;
+    display: inline;
+}
+section {
+    background: yellow;
+    float: left;
+    width: 75%;
+}
+section p img {
+    display: block;
+    margin: 0px auto;
+}
+section p strong {
+    float: left;
+    display: block;
+    background: #ccc;
+    padding: 10px;
+    margin: 10px;
+    height: 25px;
+}
+.sidebar ul {
+    padding: 0px;
+    display: inline;
+}
+aside.sidebar {
+    background: green;
+    float: right;
+    width: 100px;
+}
+.sidebar {
+    background: magenta;
+}
+footer {
+    clear: both;
+    background: blue;
+}

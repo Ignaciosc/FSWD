@@ -1,0 +1,91 @@
+body {
+    padding-top: 100px;
+    background: #9a9696;
+}
+.barranav {
+    position: fixed;
+    top: 25px;
+    left: 20px;
+    background: #f05331;
+    width: 960px;
+    height: 50px;
+    z-index: 2;
+}
+.imagesize {
+    position: relative;
+    top: -25px;
+    left: -20px;
+    width: 100px;
+    height: 100px;
+}
+.indent {
+    position: absolute;
+    left: 60px;
+    top: 15px;
+}
+.header {
+    position: relative;
+    top: 0px;
+}
+#hide {
+    position: absolute;
+    top: -50px;
+    width: 960px;
+    height: 100px;
+    z-index: 1;
+    background: #9a9696;
+}
+nav {
+    display: inline;
+    margin-left: 40px;
+    color: #fff;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+table {
+    background: #fff;
+    width: 960px;
+    z-index: -1;
+}
+tr td {
+    position: relative;
+    margin: 10px;
+    width: 300px;
+    text-align: center;
+}
+.prodname {
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 145px;
+    left: 9px;
+    height: 20px;
+    width: 300px;
+    text-align: center;
+    padding-top: 4px;
+    font-style: italic;
+    /*font-weight: bold;*/
+    font-family: sans-serif;
+    color: #fff;
+}
+.vermas {
+    background: #f05331;
+    position: absolute;
+    top: 173px;
+    left: 115px;
+    height: 20px;
+    width: 80px;
+    padding-top: 2px;
+    text-align: center;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: #fff;
+}
+.discountplace {
+    position: absolute;
+    left: 210px;
+    top: -5px;
+}
+.imgsize {
+    width: 130px;
+    height: 80px;
+}

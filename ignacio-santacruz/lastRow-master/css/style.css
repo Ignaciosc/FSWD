@@ -1,0 +1,230 @@
+html, 
+body {
+	font-family: 'Libre Franklin', sans-serif;
+	overflow-x: hidden; 
+	overflow-y: visible;
+	margin-top:0;
+	margin-left: 0;
+}
+
+.containergral {
+	position:absolute;
+	margin-top:0;
+	width:100%;
+
+}
+
+header {
+	position:fixed;
+	width:100%;
+	margin-top: 0;
+	z-index:100;
+}
+
+.containerheader {
+	position:relative;
+	width:100%;
+	margin-top:0;
+	float: left;
+	height:60px;
+	background:transparent;
+}
+
+.logo {
+	position:relative;
+	float:left;
+	width:40%;
+	top:10px;
+	height:100%;
+	vertical-align: middle;
+}
+
+.logo p {
+	font-size:20px;
+	margin-left:40px;
+}
+
+.navmain {
+	position:relative;
+	width:30%;
+	height:100%;
+	float:right;
+
+}
+
+.session {
+	position:relative;
+	height:auto;
+	padding-left:100px;
+	margin:0;
+}
+
+.username {
+	position:relative;
+	float:left;
+	height:100%;
+	top:10px;
+
+}
+
+.username p {
+	font-size: 10px;
+	text-align:center;
+	font-weight: 700;
+	margin-bottom: 2px;
+}
+
+.username input {
+
+}
+
+.username input, .password input {
+	width:100px;
+}
+
+.password {
+	float:left;
+	height:100%;
+	margin-left:20px;
+	margin-top:10px;
+}
+
+.password p {
+	font-size: 10px;
+	text-align:center;
+	font-weight: 700;
+	margin-bottom: 2px;
+}
+
+
+.navitems {
+	position:relative;
+	float:right;
+	height:100%;
+	margin-right:40px;
+	padding-top: 10px;
+}
+
+.navitems ul {
+	list-style-type: none;
+}
+
+.navitems ul li {
+	font-size: 20px;
+}
+
+.navitems ul li:hover {
+	font-weight: 900;
+	cursor:pointer;
+}
+ 
+.landing {
+	position:relative;
+	height: 100vh;
+    width: 100%;
+	margin-top: 60px;
+}
+
+video {
+    position:fixed;
+    width: auto;
+    height: auto;
+    z-index: -20;
+    background-size: cover;
+    display: block;
+    margin: 0 auto;
+}
+
+.title {
+	position:relative;
+	margin-top:10%;
+	width:100%;
+}
+
+.landing h1 p {
+	font-family: 'Libre Franklin', sans-serif;
+	text-transform: uppercase;
+	font-size: 70px;
+	text-align: center;
+	font-weight: 600;
+	color: red;
+	background:rgba(255,255,255,0.3);
+}
+
+.landing h2 p {
+	font-family: 'Libre Franklin', sans-serif;
+	text-transform: uppercase;
+	font-size: 20px;
+	text-align: center;
+	font-weight: 600;
+	color: #000;
+	margin-top:20px;
+}
+
+.landing h2 p span {
+	font-family: 'Libre Franklin', sans-serif;
+	color:black;
+	font-size: 30px;
+	line-height: 1.8;
+	font-weight: 900;
+	padding-left: 10px;
+}
+
+.worksmain {
+	position:relative;
+	width:100%;
+	background:white;
+	margin:0;
+	padding:0;
+	text-align: center;
+}
+
+.worksmain .worktitle {
+	font-family: 'Libre Franklin', sans-serif;
+	font-size:30px;
+	font-weight: 700;
+	text-transform:uppercase;
+	text-align: center;
+	padding-top:5%;
+}
+
+.worksmain .row {
+	padding-left:20%; 
+	padding-top:5%;
+}
+
+.worksmain .row h3 {
+	font-family: 'Libre Franklin', sans-serif;
+}
+
+.worksmain .row h3 p {
+    font-size: 20px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.contact {
+	background:white;
+	margin:0;
+}
+
+.btn-default {
+	position:relative;
+	width:10%;
+	left:44%;
+	margin-top:10%;
+}
+
+
+@media (min-width: 991px) {
+	body img {
+		display:none;
+	}
+
+}
+
+/*box test*/
+  {
+	border:1px solid #000;			
+}
+

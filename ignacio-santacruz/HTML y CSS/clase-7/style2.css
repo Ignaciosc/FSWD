@@ -1,0 +1,41 @@
+body {
+    background: #ccc;
+}
+
+.container {
+    width: 960px;
+    border: 1px solid #ccc;
+    background: #ccc;
+}
+header {
+    background: white;
+    border: 1px solid #ccc;
+    position: relative;
+}
+header h1 {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    font-size: 25px;
+    color: blue;
+}
+header ul {
+    position: absolute;
+    right: 0px;
+    top: 20px;
+}
+header ul li {
+    float: left;
+}
+header ul li a {
+    color: black;
+    text-decoration: none;
+}
+section {
+
+}
+section h2 {
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 10px;
+}
